@@ -1,8 +1,8 @@
 local wezterm = require("wezterm")
 return {
 	-- font = wezterm.font_with_fallback({ "IosevkaTerm Nerd Font", "JetBrainsMono Nerd Font" }),
-	font = wezterm.font_with_fallback({ "IosevkaTerm Nerd Font" }),
-	harfbuzz_features = { "calt=0", "clig=0", "liga=0" },
+	font = wezterm.font_with_fallback({ "FiraCode Nerd Font" }),
+	-- harfbuzz_features = { "calt=0", "clig=0", "liga=0" },
 	-- harfbuzz_features = { "cv01" },
 	-- font_rules = {
 	-- 	{
@@ -39,7 +39,7 @@ return {
 		bottom = 2,
 	},
 	-- line_height = 1.1,
-	font_size = 15,
+	font_size = 13,
 	enable_tab_bar = false,
 	audible_bell = "Disabled",
 	-- window_background_opacity = 0.95,
